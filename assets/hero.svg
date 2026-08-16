@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- hero.svg — premium courtroom / justice illustration (stylized, lightweight) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">IDEAL INTERNATIONAL LAW FIRM AND CONSULTANCY — Illustration</title>
+  <desc id="heroDesc">Stylized illustration of a courthouse silhouette and balanced scales in gold and deep navy tones.</desc>
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0" stop-color="#0b2540" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#072034" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0" stop-color="#d9b771"/>
+      <stop offset="1" stop-color="#b88a41"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="20" flood-color="#072034" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#g1)" rx="24"/>
+
+  <!-- Courthouse base -->
+  <g transform="translate(60,70)" filter="url(#soft)">
+    <rect x="40" y="180" width="620" height="200" rx="14" fill="#fff" opacity="0.04" />
+    <path d="M60 200 L740 200 L650 120 L150 120 Z" fill="#0b2540" opacity="0.08" />
+    <!-- columns -->
+    <g fill="#ffffff" opacity="0.95">
+      <rect x="120" y="130" width="18" height="150" rx="2" fill="#e8eef6" opacity="0.06"/>
+      <rect x="170" y="130" width="18" height="150" rx="2" fill="#e8eef6" opacity="0.06"/>
+      <rect x="220" y="130" width="18" height="150" rx="2" fill="#e8eef6" opacity="0.06"/>
+      <rect x="270" y="130" width="18" height="150" rx="2" fill="#e8eef6" opacity="0.06"/>
+      <rect x="320" y="130" width="18" height="150" rx="2" fill="#e8eef6" opacity="0.06"/>
+      <rect x="370" y="130" width="18" height="150" rx="2" fill="#e8eef6" opacity="0.06"/>
+      <rect x="420" y="130" width="18" height="150" rx="2" fill="#e8eef6" opacity="0.06"/>
+      <rect x="470" y="130" width="18" height="150" rx="2" fill="#e8eef6" opacity="0.06"/>
+    </g>
+
+    <!-- pediment -->
+    <path d="M90 120 L400 60 L710 120 Z" fill="url(#gold)" opacity="0.95"/>
+    <text x="400" y="100" fill="#072034" font-family="Inter, Arial, sans-serif" font-weight="700" font-size="20" text-anchor="middle" opacity="0.95">IDEAL INTERNATIONAL LAW FIRM</text>
+  </g>
+
+  <!-- Scales of justice (foreground) -->
+  <g transform="translate(420,220) scale(1.2)">
+    <line x1="0" y1="0" x2="0" y2="-60" stroke="#b88a41" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="0" cy="-70" r="8" fill="#b88a41"/>
+    <line x1="-80" y1="-70" x2="80" y2="-70" stroke="#b88a41" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-78 -70 q8 30 30 30 q22 0 30 -30" fill="#f6efd9" stroke="#b88a41" stroke-width="3"/>
+    <path d="M78 -70 q-8 30 -30 30 q-22 0 -30 -30" fill="#f6efd9" stroke="#b88a41" stroke-width="3"/>
+    <circle cx="-48" cy="-36" r="4" fill="#b88a41"/>
+    <circle cx="48" cy="-36" r="4" fill="#b88a41"/>
+  </g>
+
+  <!-- subtle decorative lines -->
+  <g opacity="0.06" stroke="#ffffff" stroke-width="1.2" transform="translate(40,380)">
+    <path d="M0 0 L720 0"/>
+    <path d="M0 16 L720 16"/>
+  </g>
+
+</svg>
